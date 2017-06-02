@@ -17,8 +17,8 @@
                 $rest = new TFW_Rest($url);
 
                 $rest
-                    ->addHeader("Authorization", "Basic dGVzdGVyOnRlc3Rpc2xpZmU=")
-                    ->addHeader("Api-Key", "5lf93rEm7baVAw026481")
+                    ->addHeader("Authorization", "")
+                    ->addHeader("Api-Key", "")
                     ->addHeader("Content-Type", "application/json");
 
                 $coreVersion = $rest->get("/info/core/version");
