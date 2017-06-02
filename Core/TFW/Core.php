@@ -8,7 +8,7 @@
      */
     class TFW_Core extends TFW_Abstract{
         private static $_version    = "2.0.26";
-        private static $_updaterUrl = "http://api.tfw.update.repo.com/";
+        private static $_updaterUrl = "";
 
         /**
          * @var TFW_Core_Event $_events;
