@@ -11,6 +11,6 @@
         'server'   => 'localhost',
         'username' => 'root',
         'password' => 'root',
-        'database' => 'atelier',
+        'database' => 'database_name',
         'charset'  => 'utf8'
     ];
