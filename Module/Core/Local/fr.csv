@@ -1,0 +1,132 @@
+Settings;Réglages
+Logout;Déconnexion
+First name;Prénom
+Last name;Nom
+Password;Mot de passe
+Confirm;Confirmer
+Confirm password;Confirmer le mot de passe
+If you need to reset your password;Si vous avez besoin de reinitialiser votre mot de passe
+User profile;Profile utilisateur
+Unable to load notification;Impossible de charger la notification
+Missing data;Donnée(s) manquante
+Users list;List utilisateurs
+Users groups;Groupes utilisateurs
+Group;Groupe
+Create user;Créer un utilisateur
+Create group;Créer un groupe
+Name;Nom
+Active account;Compte actif
+Create a new user;Créer un nouvel utilisateur
+Select;Séléctionner
+User with the same email already exists;Un utilisateur avec le même email existe déjà
+Unable to save user : %s;Impossible de sauvegarder l'utilisateur : %s
+Nothing to update;Rien à mettre à jour
+User updated;Utilisateur mis à jour
+User created;Utilisateur créé
+Users & groups;Utilisateurs & groupes
+Create a new group;Créer un nouveau groupe
+Group name;Nom du groupe
+Rights;Droits
+Update user group %s;Mis à jour du groupe %s
+Update user %s %s;Mettre à jour l'utilisateur %s %s
+Group with the same name already exists;Un groupe avec le même nom existe déjà
+Unable to save group : %s;Impossible de sauvegarder le groupe : %s
+Group updated;Groupe mis à jour
+Group created;Groupe créé
+Update;Mettre à jour
+Validate;Valider
+Create;Créer
+Cancel;Annuler
+Yes;Oui
+No;Non
+Filter;Filtrer
+Create a new language;Créer une nouvelle langue
+Create language;Créer une langue
+Application languages;Langues de l'application
+Application settings;Réglages application
+Tables;Tableaux
+Environment;Environnement
+Missing data;Données manquante
+Profile updated;Profile mis à jour
+Unable to update profile. %s;Impossible de mettre à jour le profile. %s
+Unable to load user:Impossible de charger l'utilisateur
+Nothing to update for profile;Rien à mettre à jour pour le profile
+Log file content : %s;Contenu du log %s
+Download;Télécharger
+Delete;Supprimer
+User;Utilisateur
+Data;Donnée
+Create new API key;Créer une nouvelle clée API
+Edit API key;Editer la clée API
+Label;Titre
+Key;Clé
+Rights group;Groupe de droits
+Application API keys;Clées API
+Enabled;Active
+Disabled;Désactive
+Key active;Clée active
+API key label;Titre de la clée
+Unable to load API key %i;Impossible de charger la clée API %i
+Missing key ID;Il manque l'ID de la clée
+API key saved;Clée API sauvegardée
+Unable to save API key;Impossible de sauvegarder la clée API
+Unable to load user %s;Impossible de charger l'utilisateur %s
+Missing user ID;Il manque l'ID de l'utilisateur
+Save;Sauvegarder
+Re-lunch CRON if stopped:Relancer les CRON si stoppés
+Force CRON re-lunch;Relancer les CRON
+For selection;Pour la séléction
+Run at next minute;Executer à la prochaine minute
+Last execution;Dernière execution
+Next execution;Prochaine execution
+Status;Statut
+Application CRON;CRON de l'application
+API Keys;Clées API
+Application's modules;Modules de l'application
+Update to %s;Mise à jour vers %s
+Text filter mode;Mode des filtres texte
+Application name;Nom de l'application
+Application logo;Logo de l'application
+Debug mode;Mode debug
+Log file content;Contenue du fichier log
+new TFW version available;Nouvelle version TFW disponnible
+Missing module key;Il manque la clée du module
+Unable to load module %s;Impossible de charger le module %s
+Unable to retrieve version to download;Impossible de recupérer la version à télécharger
+Unable to download archive;Impossible de télécharger l'archive
+Unable to extract archive;Impossible d'extraire l'archive
+None;Aucune
+Update information;Mettre à jour
+Change password;Changer le mot de passe
+See groups list;Voir la liste des groupes
+Update a existing group;Editer un group existant
+See users list;Voir la liste d'utilisateurs
+Update a existing user;Editer un utilisateur existant
+See settings;Voir les réglages
+Update settings;Editer les réglages
+Create new API keys;Créer des nouvelles clées API
+Update existing API keys;Editer les clées API existante
+Re-lunch CRON if stopped;Re-lancer le CRON s'il est stoppé
+See log;Voir un log
+Remove log;Supprimer un log
+Download log;Télécharger un log
+TEFW version : %s;Version de TEFW : %s
+New version available;Une nouvelle version est disponnible
+Menu colors;Couleurs du menu
+New version : %s;Nouvelle version : %s
+Created at;Créé le
+Return;Retour
+Error;Erreur
+Last update;Dernière mise à jour
+Drop files here to upload them;Déposer des fichiers ici pour les uploader
+Hello %s,;Bonjour %s,
+Please find attached your credentials to connect to %s;Merci de trouver attaché vos identifiants pour vous connecter à %s
+Username : %s;Login : %s
+Password : %s;Mot de passe : %s
+Thank you;Merci
+Credentials for %s;Vos identifiants pour %s
+Updates available;Mises à jour disponnible
+Core update available to <b>%s</b>;Une mise à jour du core est disponnible en <b>%s</b>
+Module(s) update available;Des mise à jour de modules sont disponnible
+Update !;Mettre à jour !
+Can update modules or core;Peux mettre à jour des modules ou le core

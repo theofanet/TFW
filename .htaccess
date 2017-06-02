@@ -1,0 +1,44 @@
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 2000000
+php_value max_input_vars 1000000
+php_value session.cookie_httponly 1
+
+AddType audio/ogg oga ogg .ogg .oga
+AddType video/ogg ogv .ogv
+AddType video/webm webm .webm
+AddType video/mp4 m4v mp4 .m4v .mp4
+AddType video/mov mov .mov
+
+Header set X-FRAME-OPTIONS "SAMEORIGIN"
+
+Options +FollowSymLinks -Indexes
+
+# Protect hidden files from being viewed
+<Files .*>
+    Order Deny,Allow
+    Deny From All
+</Files>
+
+# Protect API file
+<Files api.php>
+    AuthName "Member Only"
+    AuthType Basic
+    AuthUserFile "/var/www/html/.htpasswd"
+    require valid-user
+</Files>
+
+# Turn on URL rewriting
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_URI} ^.+$
+    RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|ico|pdf|xml|otf|eot|woff?2)$ [OR]
+    RewriteCond %{REQUEST_FILENAME} -l
+    RewriteRule ^ - [L]
+
+    RewriteCond %{HTTP_HOST} ^api\.(.*)
+    RewriteRule .* api.php [L]
+
+    RewriteRule .* index.php [PT]
+</IfModule>

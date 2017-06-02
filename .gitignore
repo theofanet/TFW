@@ -1,0 +1,7 @@
+/.vagrant/
+Vagrantfile
+/.idea/
+/vendor/
+/Cache/
+/composer.lock
+/var/

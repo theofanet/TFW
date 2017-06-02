@@ -1,0 +1,6 @@
+.panel-default {
+    width: 350px;
+    margin: 10vh auto;
+}
+
+.form-group.last { margin-bottom:0; }

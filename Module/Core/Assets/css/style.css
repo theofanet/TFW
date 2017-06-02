@@ -1,0 +1,729 @@
+/*
+    Animations
+        Blink
+*/
+
+
+body {
+    padding-top: 70px;
+}
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.notif-animation{
+    -webkit-animation: notif 1s linear infinite;
+    -moz-animation: notif 1s linear infinite;
+    -ms-animation: notif 1s linear infinite;
+    -o-animation: notif 1s linear infinite;
+    animation: notif 1s linear infinite;
+}
+
+@-webkit-keyframes notif {
+    0% { color: inherit; }
+    50% { color: #e74c3c; }
+    100% { color: inherit; }
+}
+
+@-moz-keyframes notif {
+    0% { color: inherit; }
+    50% { color: #e74c3c; }
+    100% { color: inherit; }
+}
+
+@-ms-keyframes notif {
+    0% { color: inherit; }
+    50% { color: #e74c3c; }
+    100% { color: inherit; }
+}
+
+@-o-keyframes notif {
+    0% { color: inherit; }
+    50% { color: #e74c3c; }
+    100% { color: inherit; }
+}
+
+@keyframes notif {
+    0% { color: inherit; }
+    50% { color: #e74c3c; }
+    100% { color: inherit; }
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+    color:#fff;
+}
+
+.page-header{
+    margin-top: 20px;
+}
+
+/*
+Panels
+*/
+.panel-heading{
+    font-weight: bold;
+}
+
+/*
+Tables
+*/
+.table thead tr th{
+    background: #fff;
+    border: 0;
+}
+
+.table thead tr th.filter{
+    padding-top: 0;
+}
+
+table.notification-table{
+    width:100%;
+}
+
+table.notification-table tr:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.table thead tr th h2.table-header-title{
+    margin-top: 0;
+}
+
+table thead tr th.sort{
+    cursor: pointer;
+}
+
+table thead tr th.sort .glyphicon{
+    color: #ccc;
+}
+
+table thead tr th.sort:hover .glyphicon{
+    display: inline-block !important;
+}
+
+table thead tr th.sort.sort_active .glyphicon{
+    color: #000;
+}
+
+table .massAction_check{
+    cursor: pointer;
+    width: 10px;
+}
+
+table.table-hover tbody tr td{
+    cursor: pointer;
+}
+
+.panel table{
+    margin-bottom: 0;
+}
+
+/*
+User notifications
+*/
+li.user-notification-element table td.notification-title{
+    text-align:left;
+    padding: 5px;
+}
+
+li.user-notification-element table td.notification-date{
+    width:80px;
+    text-align:center;
+    padding: 5px;
+}
+
+li.user-notification-element table td.notification-bullet{
+    width:30px;
+    text-align:center;
+    vertical-align:middle;
+    color:blue;
+    line-height:25px;
+    font-size:25px
+}
+
+/*
+Tree view
+*/
+.tw-control{
+    margin-right: 10px !important;
+}
+
+.treeview-folder{
+    cursor: pointer;
+}
+
+/*
+Inputs
+*/
+select option{
+    color: #333;
+}
+
+select.select-not-selected, select option.select-default-value{
+    color: #999;
+}
+
+/*
+Menu
+*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* The Overlay (background) */
+.overlay {
+    display: none;
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 10000000; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    color: #fff;
+    font-size: 2vw;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/* this CSS is not part of the widget, it is here just as an example of the demo page styling.... Don't copy this one, roll your own. One
+ * of the key things about the widget is that it allows you to do your own styling!
+ */
+
+#editor {
+    max-height: 250px;
+    height: 250px;
+    background-color: white;
+    border-collapse: separate;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 4px;
+    box-sizing: content-box;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+    overflow: scroll;
+    outline: none;
+}
+#voiceBtn {
+    width: 20px;
+    color: transparent;
+    background-color: transparent;
+    transform: scale(2.0, 2.0);
+    -webkit-transform: scale(2.0, 2.0);
+    -moz-transform: scale(2.0, 2.0);
+    border: transparent;
+    cursor: pointer;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+div[data-role="editor-toolbar"] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown-menu a {
+    cursor: pointer;
+}
+
+/*
+TYPE AHEAD STYLE FIX
+ */
+
+span.twitter-typeahead .tt-menu,
+span.twitter-typeahead .tt-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+
+span.twitter-typeahead .tt-suggestion {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+}
+
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+span.twitter-typeahead .tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #337ab7;
+}
+
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+span.twitter-typeahead {
+    width: 100%;
+}
+
+.input-group span.twitter-typeahead {
+    display: block !important;
+    height: 34px;
+}
+
+.input-group span.twitter-typeahead .tt-menu,
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+    top: 32px !important;
+}
+
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+    border-radius: 0;
+}
+
+.input-group span.twitter-typeahead:first-child .form-control {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group span.twitter-typeahead:last-child .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.input-group.input-group-sm span.twitter-typeahead {
+    height: 30px;
+}
+
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+    top: 30px !important;
+}
+
+.input-group.input-group-lg span.twitter-typeahead {
+    height: 46px;
+}
+
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+    top: 46px !important;
+}
+
+/**
+Uploader Style
+ */
+.uploadBox{
+    background:#333;
+
+    border-radius:3px 3px 0 0;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    width: auto;
+
+    box-shadow:0 0 4px rgba(0,0,0,0.3) inset,0 -3px 2px rgba(0,0,0,0.1);
+}
+
+.uploadBox .message{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0;
+    display: block;
+    color: #555;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uploadBox .message i{
+    color: #555;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-size:80px;
+}
+
+.uploadBox:hover .message, .uploadBox:hover .message i, .uploadBox.hover .message, .uploadBox.hover .message i{
+    color: #fff;
+}
+
+.uploadBox:before{
+    border-radius:3px 3px 0 0;
+}
+
+/*-------------------------
+    Image Previews
+--------------------------*/
+
+.uploadBox .preview{
+    width:150px;
+    height: 165px;
+    float:left;
+    margin: 25px 0 10px 25px;
+    position: relative;
+    text-align: center;
+}
+
+.uploadBox .preview img{
+    max-width: 120px;
+    max-height:120px;
+    border:3px solid #fff;
+    display: block;
+
+    box-shadow:0 0 2px #000;
+}
+
+.uploadBox .imageHolder{
+    display: inline-block;
+    position:relative;
+}
+
+.uploadBox .uploaded{
+    position: absolute;
+    top: 0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: url('../images/done.png') no-repeat center center rgba(255, 255, 255, 0.5);
+    display: none;
+}
+
+.uploadBox .preview.done .uploaded{
+    display: block;
+}
+
+/*-------------------------
+    Progress Bars
+--------------------------*/
+
+.uploadBox .progressHolder{
+    position: absolute;
+    background-color:#252f38;
+    height: 12px;
+    width:100%;
+    left:0;
+    bottom: 0;
+
+    box-shadow:0 0 2px #000;
+}
+
+.uploadBox .preview div.file_name{
+    color: #fff;
+}
+
+.uploadBox .progress{
+    background-color:#fff;
+    position: absolute;
+    height:100%;
+    left:0;
+    bottom: 1px;
+    width:0;
+
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.4) inset;
+
+    -moz-transition:0.25s;
+    -webkit-transition:0.25s;
+    -o-transition:0.25s;
+    transition:0.25s;
+}
+
+.uploadBox .preview.done .progress{
+    width:100% !important;
+}
+
+/**
+Updates action boxes
+ */
+.bs-calltoaction{
+    position: relative;
+    width:auto;
+    padding: 15px 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.bs-calltoaction > .row{
+    display:table;
+    width: calc(100% + 30px);
+}
+
+.bs-calltoaction > .row > [class^="col-"],
+.bs-calltoaction > .row > [class*=" col-"]{
+    float:none;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.cta-contents{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cta-title{
+    margin: 0 auto 15px;
+    padding: 0;
+}
+
+.cta-desc{
+    padding: 0;
+}
+
+.cta-desc p:last-child{
+    margin-bottom: 0;
+}
+
+.cta-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cta-button a{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 991px){
+    .bs-calltoaction > .row{
+        display:block;
+        width: auto;
+    }
+
+    .bs-calltoaction > .row > [class^="col-"],
+    .bs-calltoaction > .row > [class*=" col-"]{
+        float:none;
+        display:block;
+        vertical-align:middle;
+        position: relative;
+    }
+
+    .cta-contents{
+        text-align: center;
+    }
+}
+
+
+
+.bs-calltoaction.bs-calltoaction-default{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.bs-calltoaction.bs-calltoaction-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.bs-calltoaction.bs-calltoaction-info{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.bs-calltoaction.bs-calltoaction-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.bs-calltoaction.bs-calltoaction-warning{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.bs-calltoaction.bs-calltoaction-danger{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.bs-calltoaction.bs-calltoaction-primary .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-info .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-success .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-warning .cta-button .btn,
+.bs-calltoaction.bs-calltoaction-danger .cta-button .btn{
+    border-color:#fff;
+}
